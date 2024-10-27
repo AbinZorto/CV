@@ -280,14 +280,9 @@ INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/fontawesome/ufontawesometwo.f
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/fontawesome/FontAwesome--fontawesometwo.tfm
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/lm/ts1lmss.fd
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/lm/ts1lmss.fd
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/lm/ts1lmss.fd
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/lm/ts1-lmss9.tfm
 INPUT /usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc
 INPUT AbinZorto-CoverLetter.aux
 INPUT ./AbinZorto-CoverLetter.out
 INPUT ./AbinZorto-CoverLetter.out
