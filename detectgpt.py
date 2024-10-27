@@ -5,6 +5,9 @@ from typing import List, Dict
 import nltk
 from tqdm import tqdm
 import re
+import os
+from PyPDF2 import PdfReader
+
 try:
     nltk.data.find('tokenizers/punkt')
 except LookupError:
@@ -18,7 +21,9 @@ class DetectGPT:
         num_samples: int = 15
     ):
         print("Loading model and tokenizer...")
-        if torch.backends.mps.is_available():
+        if torch.cuda.is_available():
+            self.device = "cuda"
+        elif torch.backends.mps.is_available():
             self.device = "mps"
         else:
             self.device = "cpu"
@@ -27,7 +32,7 @@ class DetectGPT:
         
         self.model = AutoModelForCausalLM.from_pretrained(
             model_name,
-            torch_dtype=torch.float16
+            torch_dtype=torch.float16 if self.device == "cuda" else torch.float32
         ).to(self.device)
         self.tokenizer = AutoTokenizer.from_pretrained(model_name)
         
@@ -91,7 +96,7 @@ class DetectGPT:
             log_prob = log_probs[i][range(len(log_probs[i])), inputs.input_ids[i, 1:]]
             batch_log_probs.append(log_prob.mean().item())
             
-        return torch.tensor(batch_log_probs)
+        return torch.tensor(batch_log_probs, device=self.device)
 
     def analyze_paragraph(self, paragraph: str, pbar=None) -> Dict:
         """Analyze a single paragraph."""
@@ -253,6 +258,27 @@ def format_results(results: Dict) -> str:
     
     return "\n".join(output)
 
+def read_pdf(file_path):
+    try:
+        # Check if file exists
+        if not os.path.exists(file_path):
+            raise FileNotFoundError(f"The file {file_path} does not exist.")
+        
+        # Try to open and read the PDF
+        with open(file_path, 'rb') as file:
+            pdf_reader = PdfReader(file)
+            text = ""
+            for page in pdf_reader.pages:
+                text += page.extract_text()
+        return text
+    except FileNotFoundError as e:
+        print(f"Error: {e}")
+    except PermissionError:
+        print(f"Error: Permission denied when trying to read {file_path}")
+    except Exception as e:
+        print(f"An unexpected error occurred: {e}")
+    return None
+
 def main():
     import argparse
     import time
@@ -267,14 +293,11 @@ def main():
 
     print("\n=== Reading Input File ===")
     if args.input_file.endswith('.pdf'):
-        try:
-            import subprocess
-            print("Converting PDF to text...")
-            subprocess.run(["pdftotext", "-layout", args.input_file, "output.txt"], check=True)
-            with open("output.txt", "r", encoding='utf-8') as f:
-                text = f.read()
-        except Exception as e:
-            print(f"Error reading PDF: {e}")
+        pdf_text = read_pdf(args.input_file)
+        if pdf_text:
+            text = pdf_text
+        else:
+            print("Failed to read the PDF file.")
             return
     else:
         with open(args.input_file, "r", encoding='utf-8') as f:
