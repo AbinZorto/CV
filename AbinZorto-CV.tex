@@ -1,0 +1,181 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1.2cm]{geometry}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{fontawesome}
+\usepackage{xcolor}
+\usepackage{lmodern}
+\usepackage{tikz}
+\usepackage{mdframed}
+\usepackage{ragged2e}
+\usepackage[none]{hyphenat}
+
+% Better margin and spacing control
+\tolerance=1
+\emergencystretch=30em
+\usepackage{microtype}
+\setlength{\parindent}{0pt}
+\setlength{\RaggedRightParindent}{0pt}
+\setlength{\parskip}{0.4em}
+
+% Define colors
+\definecolor{primary}{RGB}{0, 79, 159}
+\definecolor{secondary}{RGB}{100, 100, 100}
+\definecolor{accent}{RGB}{70, 142, 220}
+
+% Modern font setup
+\renewcommand{\familydefault}{\sfdefault}
+
+% Section styling
+\usepackage{titlesec}
+\titleformat{\section}{\Large\bfseries\color{primary}}{\thesection}{0em}{}[\titlerule]
+\titleformat{\subsection}{\bfseries\color{secondary}}{\thesubsection}{0em}{}
+\titlespacing*{\section}{0pt}{*0.8}{*0.4}
+\titlespacing*{\subsection}{0pt}{*0.8}{*0.4}
+
+% List settings
+\setlist{nosep}
+\setlist[itemize]{leftmargin=*}
+\setlist[itemize]{label=\color{primary}{\small\textbullet}}
+
+% Hyperlink styling
+\hypersetup{
+    colorlinks=true,
+    linkcolor=accent,
+    filecolor=accent,
+    urlcolor=accent,
+}
+
+\begin{document}
+
+% Header with subtle decoration
+\begin{tikzpicture}[remember picture,overlay]
+\fill[primary] (current page.north west) rectangle ++(\paperwidth,0.4pt);
+\end{tikzpicture}
+
+\begin{center}
+    {\color{primary}\Large\textbf{ABIN ZORTO}}\\[0.2em]
+    {\color{secondary}\large\textbf{MACHINE LEARNING ENGINEER}}\\[0.3em]
+    
+    \small\color{secondary}
+    \faMapMarker\ Flat 6, 60 West-ferry Road, London, E148LN |
+    \faMobile\ +447939412710 |
+    \faEnvelope\ abinzorto@outlook.com |
+    \faLinkedin\ linkedin.com/in/abin-zorto
+\end{center}
+
+% Achievement-focused summary
+{\color{secondary}
+Machine Learning Engineer with 2+ years of research expertise, specializing in deploying and scaling ML pipelines across cloud environments. Track record of reducing deployment time by 75\% and handling 1M+ daily predictions. Experienced in cloud infrastructure, Kubernetes, and integrating AI workflows with modern GPUs. Skilled in optimizing data processing pipelines and implementing robust CI/CD practices.
+}
+
+\section*{TECHNICAL SKILLS}
+\textbf{Programming Languages:} Python, JavaScript, C++, C\#, R, SQL, NoSQL, Scala
+
+\textbf{Cloud \& Infrastructure:}
+\begin{itemize}
+    \item AWS: EC2, S3, Lambda, SageMaker, Glue, ECS, RDS, CloudWatch, CloudFormation
+    \item Azure: Machine Learning, Databricks, Functions, Kubernetes Service, DevOps, Active Directory, DataLake
+    \item Google Cloud: Compute Engine, Cloud Storage, Kubernetes Engine, AI Platform
+\end{itemize}
+
+\textbf{DevOps \& Containerization:} Kubernetes, Docker, Terraform, Git, GitHub Actions, Jenkins, GitLab
+
+\textbf{Databases:} SQL, NoSQL, Neo4j, Vector Databases
+
+\textbf{Machine Learning \& Data Science:} TensorFlow, PyTorch, Scikit-learn, PySpark, NLTK
+
+\section*{EXPERIENCE}
+
+\subsection*{Senior Research Assistant}
+\textbf{University of East London} \hfill September 2023 -- July 2024
+\begin{itemize}
+    \item Architected multi-cloud ML pipeline processing 100,000+ data points daily across AWS, Azure, and Google Cloud
+    \item Orchestrated deployment of 3 production ML models using Kubernetes, increasing reliability by 35\%
+    \item Scaled serverless computing infrastructure handling 50,000+ daily requests using Azure Functions and AWS Lambda
+    \item Established automated CI/CD pipeline reducing model deployment time by 50\% using GitHub Actions and Jenkins
+    \item Implemented robust monitoring and logging solutions using CloudWatch and Azure Monitor, improving system observability by 40\%
+    \item Optimized data processing workflows using PySpark, reducing query times by 60\% on 5TB+ datasets
+\end{itemize}
+
+\subsection*{Teaching and Research Supervisor}
+\textbf{University of East London} \hfill May 2023 -- September 2023
+\begin{itemize}
+    \item Conducted 12 technical workshops on cloud infrastructure and DevOps practices for 100+ students
+    \item Mentored 15 graduate students on implementing scalable ML solutions using Kubernetes and cloud services
+    \item Guided 5 students in optimizing database performance for ML applications, focusing on Neo4j and vector databases
+\end{itemize}
+
+\subsection*{Junior Research Assistant}
+\textbf{University of East London} \hfill September 2022 -- May 2023
+\begin{itemize}
+    \item Designed and implemented healthcare ML models deployed on multi-cloud environments (AWS, Azure)
+    \item Optimized data processing pipeline to handle 5TB+ of medical data using PySpark and Kubernetes
+    \item Implemented secure data integration workflows compliant with healthcare data protection regulations
+    \item Developed analytics workflow reducing query time by 60\% using Azure Synapse and AWS Redshift
+\end{itemize}
+
+\subsection*{Retention Specialist}
+\textbf{Direct Line Group} \hfill January 2022 -- March 2022
+\begin{itemize}
+    \item Managed 200+ monthly customer interactions achieving 95\% satisfaction rate
+    \item Formulated stakeholder feedback system capturing 50\% more actionable insights
+    \item Contributed to 15\% reduction in customer churn through data-driven engagement strategies
+    \item Generated weekly analytics reports tracking 20+ KPIs for executive team
+    \item Achieved top 10\% performance rating among 50+ specialists
+\end{itemize}
+
+\section*{RESEARCH PUBLICATIONS}
+\href{https://scholar.google.com/citations?hl=en&user=1yjR8x8AAAAJ}{scholar.google.com/citations?hl=en\&user=1yjR8x8AAAAJ} {\small\color{secondary}(click to view)}
+\begin{itemize}
+    \item Authored ML-based keratoconus diagnosis paper achieving 85\% accuracy rate - \textbf{Informatics in Medicine Unlocked} (Impact Factor: 5.2) (Citations: 5+)
+    \item Pioneered novel GAN architecture improving sepsis diagnosis accuracy by 25\% - \textbf{Applied Computational Intelligence}
+\end{itemize}
+
+\section*{TECHNICAL PROJECTS} 
+\href{https://github.com/AbinZorto}{github.com/AbinZorto} {\small\color{secondary}(click to view)}
+
+\textbf{MLOps \& Infrastructure}
+\begin{itemize}
+    \item Orchestrated ML deployment system reducing release cycle from 24 hours to 6 hours across 3 cloud environments
+    \item Scaled Kubernetes infrastructure supporting 200+ concurrent users with 99.9\% uptime
+    \item Optimized CI/CD pipeline reducing build times by 40\% for 20+ microservices using GitHub Actions and Jenkins
+    \item Automated resource provisioning across AWS, Azure, and Google Cloud, cutting deployment costs by 35\%
+\end{itemize}
+
+\textbf{Database Optimization}
+\begin{itemize}
+    \item Implemented and optimized Neo4j graph database for complex relationship modeling in ML applications
+    \item Designed vector database solution for efficient similarity search in high-dimensional data spaces
+    \item Developed data integration pipelines connecting multiple sources to centralized data lakes on AWS and Azure
+\end{itemize}
+
+\textbf{AI and GPU Optimization}
+\begin{itemize}
+    \item Engineered YOLOv4 detection system achieving 64\% accuracy on 50,000+ video frames, optimized for GPU acceleration
+    \item Implemented distributed training pipelines for large language models using PyTorch and Kubernetes
+    \item Optimized inference performance for NLP models using ONNX Runtime and TensorRT on cloud GPU instances
+\end{itemize}
+
+\section*{EDUCATION}
+
+\textbf{PhD in Computer Science} \hfill May 2023 -- May 2026\\
+University of East London\\
+\textit{Research Focus:} A Multimodal Computational Intelligence Approach to Neurophysiological Predictors of Transcranial Direct Current Stimulation for Depression Treatment\\
+
+\textbf{MSc Computer Science} \hfill January 2021 -- January 2023\\
+University of East London \hfill Grade: Distinction (96\%)\\
+\textit{Thesis:} Developed ML system improving medical diagnosis accuracy by 30\%
+
+\textbf{MSc Advanced Robotics} \hfill September 2019 -- September 2020\\
+Queen Mary University of London \hfill Grade: Distinction (81\%)\\
+\textit{Thesis:} Created autonomous system reducing navigation errors by 55\%
+
+\textbf{BEng Mechanical Engineering} \hfill September 2016 -- June 2019\\
+The University of Manchester \hfill Grade: 2:2 (55\%)\\
+\textit{Final Project:} Led 4-person team to design automated system improving efficiency by 30\%
+
+\end{document}

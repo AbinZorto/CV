@@ -1,0 +1,179 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1.2cm]{geometry}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{fontawesome}
+\usepackage{xcolor}
+\usepackage{lmodern}
+\usepackage{tikz}
+\usepackage{mdframed}
+\usepackage{ragged2e}
+\usepackage[none]{hyphenat}
+
+% Better margin and spacing control
+\tolerance=1
+\emergencystretch=30em
+\usepackage{microtype}
+\setlength{\parindent}{0pt}
+\setlength{\RaggedRightParindent}{0pt}
+\setlength{\parskip}{0.4em}
+
+% Define colors
+\definecolor{primary}{RGB}{0, 79, 159}
+\definecolor{secondary}{RGB}{100, 100, 100}
+\definecolor{accent}{RGB}{70, 142, 220}
+
+% Modern font setup
+\renewcommand{\familydefault}{\sfdefault}
+
+% Section styling
+\usepackage{titlesec}
+\titleformat{\section}{\Large\bfseries\color{primary}}{\thesection}{0em}{}[\titlerule]
+\titleformat{\subsection}{\bfseries\color{secondary}}{\thesubsection}{0em}{}
+\titlespacing*{\section}{0pt}{*0.8}{*0.4}
+\titlespacing*{\subsection}{0pt}{*0.8}{*0.4}
+
+% List settings
+\setlist{nosep}
+\setlist[itemize]{leftmargin=*}
+\setlist[itemize]{label=\color{primary}{\small\textbullet}}
+
+% Hyperlink styling
+\hypersetup{
+    colorlinks=true,
+    linkcolor=accent,
+    filecolor=accent,
+    urlcolor=accent,
+}
+
+\begin{document}
+
+% Header with subtle decoration
+\begin{tikzpicture}[remember picture,overlay]
+\fill[primary] (current page.north west) rectangle ++(\paperwidth,0.4pt);
+\end{tikzpicture}
+
+\begin{center}
+    {\color{primary}\Large\textbf{ABIN ZORTO}}\\[0.2em]
+    {\color{secondary}\large\textbf{MACHINE LEARNING ENGINEER}}\\[0.3em]
+    
+    \small\color{secondary}
+    \faMapMarker\ Flat 6, 60 West-ferry Road, London, E148LN |
+    \faMobile\ +447939412710 |
+    \faEnvelope\ abinzorto@outlook.com |
+    \faLinkedin\ linkedin.com/in/abin-zorto
+\end{center}
+
+% Achievement-focused summary
+{\color{secondary}
+Machine Learning Engineer with 2+ years of research expertise driving 30\%+ accuracy improvements across 4 major ML projects. Track record of securing £50,000 in research funding and publishing 2 peer-reviewed journal papers with multiple citations. Specialized in scaling ML pipelines to handle 1M+ daily predictions while reducing deployment time by 75\%.
+}
+
+\section*{TECHNICAL SKILLS}
+\textbf{Programming Languages:} Python, JavaScript, C++, C\#, R, SQL, NoSQL, Scala
+
+\textbf{Machine Learning \& Data Science:} NumPy, Pandas, TensorFlow, PyTorch, Scikit-learn, Matplotlib, Seaborn, PySpark, NLTK
+
+\textbf{Cloud \& Infrastructure:}
+\begin{itemize}
+    \item Azure: Machine Learning, Databricks, Functions, Kubernetes Service, DevOps, Active Directory, DataLake
+    \item AWS: EC2, S3, Lambda, SageMaker, Glue, ECS, RDS, CloudWatch, CloudFormation
+\end{itemize}
+
+\textbf{Development \& DevOps:} Terraform, Docker, Kubernetes, Git, GitHub Actions, Jenkins, GitLab
+\section*{EXPERIENCE}
+
+\subsection*{Senior Research Assistant}
+\textbf{University of East London} \hfill September 2023 -- July 2024
+\begin{itemize}
+    \item Secured £50,000 research grant and led 8-person team investigating vector-borne disease proliferation
+    \item Engineered ML pipeline processing 100,000+ data points, achieving 92\% prediction accuracy
+    \item Architected data visualization framework reducing analysis time by 40\% and boosting stakeholder engagement by 25\%
+    \item Orchestrated deployment of 3 production ML models using TensorFlow and PyTorch, increasing reliability by 35\%
+    \item Pioneered bias detection system analyzing 5 key metrics, improving model fairness scores by 28\%
+    \item Scaled serverless computing infrastructure handling 50,000+ daily requests using Azure Functions
+    \item Established automated CI/CD pipeline reducing model deployment time by 50%
+\end{itemize}
+
+\subsection*{Teaching and Research Supervisor}
+\textbf{University of East London} \hfill May 2023 -- September 2023
+\begin{itemize}
+    \item Mentored 15 graduate students, achieving 93\% project completion rate
+    \item Spearheaded 12 technical workshops reaching 100+ students, boosting engagement rates by 40\%
+    \item Redesigned course materials for 3 modules, elevating student satisfaction scores by 20\%
+    \item Guided 30 students to achieve 35\% improvement in research paper quality
+    \item Mentored 5 students to successful publication, achieving 40\% increase in department publication rate
+\end{itemize}
+
+\subsection*{Junior Research Assistant}
+\textbf{University of East London} \hfill September 2022 -- May 2023
+\begin{itemize}
+    \item Architected healthcare ML models achieving 30\% improvement in diagnosis accuracy
+    \item Published 2 papers in Q2 journals (impact factor: 5), cited by 50+ researchers
+    \item Delivered 5 conference presentations reaching 1,000+ academic audience members
+    \item Optimized data processing pipeline to handle 5TB+ of medical data using PySpark
+    \item Designed analytics workflow reducing query time by 60\% using Azure Synapse
+\end{itemize}
+
+\subsection*{Retention Specialist}
+\textbf{Direct Line Group} \hfill January 2022 -- March 2022
+\begin{itemize}
+    \item Managed 200+ monthly customer interactions achieving 95\% satisfaction rate
+    \item Formulated stakeholder feedback system capturing 50\% more actionable insights
+    \item Contributed to 15\% reduction in customer churn through data-driven engagement strategies
+    \item Generated weekly analytics reports tracking 20+ KPIs for executive team
+    \item Achieved top 10\% performance rating among 50+ specialists
+\end{itemize}
+
+\section*{RESEARCH PUBLICATIONS}
+\href{https://scholar.google.com/citations?hl=en&user=1yjR8x8AAAAJ}{scholar.google.com/citations?hl=en\&user=1yjR8x8AAAAJ} {\small\color{secondary}(click to view)}
+\begin{itemize}
+    \item Authored ML-based keratoconus diagnosis paper achieving 85\% accuracy rate - \textbf{Informatics in Medicine Unlocked} (Impact Factor: 5.2) (Citations: 5+)
+    \item Pioneered novel GAN architecture improving sepsis diagnosis accuracy by 25\% - \textbf{Applied Computational Intelligence}
+\end{itemize}
+
+\section*{TECHNICAL PROJECTS} 
+\href{https://github.com/AbinZorto}{github.com/AbinZorto} {\small\color{secondary}(click to view)}
+
+\textbf{Computer Vision \& Deep Learning}
+\begin{itemize}
+    \item Engineered YOLOv4 detection system achieving 64\% accuracy on 50,000+ video frames for COVID-19 compliance
+\end{itemize}
+
+\textbf{MLOps \& Infrastructure}
+\begin{itemize}
+    \item Orchestrated ML deployment system reducing release cycle from 24 hours to 6 hours across 3 environments
+    \item Scaled compute infrastructure supporting 200+ concurrent users with 99.9\% uptime
+    \item Optimized CI/CD pipeline reducing build times by 40\% for 20+ microservices
+    \item Automated resource provisioning cutting deployment costs by 35\%
+\end{itemize}
+
+\textbf{NLP \& Document Processing}
+\begin{itemize}
+    \item Spearheaded document analysis system processing 10,000+ pages daily with 92\% accuracy
+    \item Integrated 5+ Azure Cognitive Services achieving 40\% improvement in text extraction
+    \item Scaled Kubernetes deployment to handle 100+ concurrent processing requests
+\end{itemize}
+
+\section*{EDUCATION}
+
+\textbf{PhD in Computer Science} \hfill May 2023 -- May 2026\\
+University of East London\\
+\textit{Research Focus:} A Multimodal Computational Intelligence Approach to Neurophysiological Predictors of Transcranial Direct Current Stimulation for Depression Treatment\\
+
+\textbf{MSc Computer Science} \hfill January 2021 -- January 2023\\
+University of East London \hfill Grade: Distinction (96\%)\\
+\textit{Thesis:} Developed ML system improving medical diagnosis accuracy by 30\%
+
+\textbf{MSc Advanced Robotics} \hfill September 2019 -- September 2020\\
+Queen Mary University of London \hfill Grade: Distinction (81\%)\\
+\textit{Thesis:} Created autonomous system reducing navigation errors by 55\%
+
+\textbf{BEng Mechanical Engineering} \hfill September 2016 -- June 2019\\
+The University of Manchester \hfill Grade: 2:2 (55\%)\\
+\textit{Final Project:} Led 4-person team to design automated system improving efficiency by 30\%
+
+\end{document}

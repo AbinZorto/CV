@@ -1,0 +1,104 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1.2cm]{geometry}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{fontawesome}
+\usepackage{xcolor}
+\usepackage{lmodern}
+\usepackage{tikz}
+\usepackage{mdframed}
+\usepackage{ragged2e}
+\usepackage[none]{hyphenat}
+
+% Better margin and spacing control
+\tolerance=1
+\emergencystretch=30em
+\usepackage{microtype}
+\setlength{\parindent}{0pt}
+\setlength{\RaggedRightParindent}{0pt}
+\setlength{\parskip}{0.4em}
+
+% Define colors
+\definecolor{primary}{RGB}{0, 79, 159}
+\definecolor{secondary}{RGB}{100, 100, 100}
+\definecolor{accent}{RGB}{70, 142, 220}
+
+% Modern font setup
+\renewcommand{\familydefault}{\sfdefault}
+
+% Section styling
+\usepackage{titlesec}
+\titleformat{\section}{\Large\bfseries\color{primary}}{\thesection}{0em}{}[\titlerule]
+\titleformat{\subsection}{\bfseries\color{secondary}}{\thesubsection}{0em}{}
+\titlespacing*{\section}{0pt}{*0.8}{*0.4}
+\titlespacing*{\subsection}{0pt}{*0.8}{*0.4}
+
+% List settings
+\setlist{nosep}
+\setlist[itemize]{leftmargin=*}
+\setlist[itemize]{label=\color{primary}{\small\textbullet}}
+
+% Hyperlink styling
+\hypersetup{
+    colorlinks=true,
+    linkcolor=accent,
+    filecolor=accent,
+    urlcolor=accent,
+}
+
+\begin{document}
+
+% Header with subtle decoration
+\begin{tikzpicture}[remember picture,overlay]
+\fill[primary] (current page.north west) rectangle ++(\paperwidth,0.4pt);
+\end{tikzpicture}
+
+\begin{center}
+    {\color{primary}\Large\textbf{ABIN ZORTO}}\\[0.2em]
+    {\color{secondary}\large\textbf{MACHINE LEARNING ENGINEER}}\\[0.3em]
+    
+    \small\color{secondary}
+    \faMapMarker\ Flat 6, 60 West-ferry Road, London, E148LN |
+    \faMobile\ +447939412710 |
+    \faEnvelope\ abinzorto@outlook.com |
+    \faLinkedin\ linkedin.com/in/abin-zorto
+\end{center}
+
+\vspace{1em}
+\today
+
+\vspace{1em}
+Hiring Manager\\
+Complexio\\
+Foundational AI
+
+\vspace{1em}
+Dear Hiring Manager,
+
+I am writing to express my strong interest in the DevOps Engineer position at Complexio. With my experience in deploying and managing ML pipelines across multiple cloud environments and my extensive work with Kubernetes, I believe I can contribute significantly to Complexio's mission of automating business activities through AI solutions.
+
+Currently pursuing my PhD in Computer Science at the University of East London, I have gained valuable hands-on experience in managing distributed systems and implementing ML solutions at scale. As a Senior Research Assistant, I have:
+
+\begin{itemize}
+    \item Architected and managed multi-cloud ML pipelines across AWS, Azure, and Google Cloud, processing 100,000+ data points daily
+    \item Successfully deployed and managed Kubernetes clusters for ML workloads, improving system reliability by 35\%
+    \item Implemented robust CI/CD pipelines using GitHub Actions and Jenkins, reducing deployment time by 50\%
+    \item Worked extensively with Neo4j and vector databases for efficient data management and similarity search
+    \item Developed and optimized data integration pipelines connecting multiple sources to centralized data lakes
+\end{itemize}
+
+I am particularly excited about Complexio's focus on leveraging multiple LLMs and graph databases to understand and automate business processes. My experience in managing GPU-accelerated ML workflows and optimizing distributed systems aligns perfectly with your technical requirements. Additionally, my background in implementing secure data integration workflows compliant with healthcare regulations demonstrates my understanding of handling sensitive data at scale.
+
+While I may not meet the exact experience requirements of 7+ years in cloud infrastructure, my intensive hands-on experience with cutting-edge technologies and proven track record of successfully implementing complex ML systems demonstrates my capability to handle the responsibilities of this role effectively.
+
+I am confident that my technical expertise, coupled with my research background in AI and distributed systems, would make me a valuable addition to your team. I would welcome the opportunity to discuss how my skills and experience align with Complexio's needs in more detail.
+
+Thank you for considering my application.
+
+Best regards,\\
+Abin Zorto
+
+\end{document}
