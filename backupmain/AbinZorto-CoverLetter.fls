@@ -1,8 +1,8 @@
-PWD /Users/abin/CV
+PWD /Users/abin/CV/backupmain
 INPUT /usr/local/texlive/2024/texmf.cnf
 INPUT /usr/local/texlive/2024/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/abin/CV/AbinZorto-CoverLetter.tex
+INPUT /Users/abin/CV/backupmain/AbinZorto-CoverLetter.tex
 OUTPUT AbinZorto-CoverLetter.log
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls

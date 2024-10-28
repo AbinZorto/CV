@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.26)  27 OCT 2024 11:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.26)  27 OCT 2024 18:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/abin/CV/AbinZorto-CoverLetter.tex
-(/Users/abin/CV/AbinZorto-CoverLetter.tex
+**/Users/abin/CV/backupmain/AbinZorto-CoverLetter.tex
+(/Users/abin/CV/backupmain/AbinZorto-CoverLetter.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
 (/usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls
@@ -745,12 +745,12 @@ Package rerunfilecheck Info: File `AbinZorto-CoverLetter.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  24563 strings out of 474116
- 453541 string characters out of 5743681
+ 453574 string characters out of 5743681
  1937187 words of memory out of 5000000
  46507 multiletter control sequences out of 15000+600000
  576879 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,5n,107p,1033b,441s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,5n,107p,1044b,441s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmss9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb>
 Output written on AbinZorto-CoverLetter.pdf (1 page, 82949 bytes).
 PDF statistics:

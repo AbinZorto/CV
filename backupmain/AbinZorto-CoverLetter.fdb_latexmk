@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1730027255.73886 "/Users/abin/CV/AbinZorto-CoverLetter.tex" "AbinZorto-CoverLetter.pdf" "AbinZorto-CoverLetter" 1730027256.55994 0
-  "/Users/abin/CV/AbinZorto-CoverLetter.tex" 1730027254.40479 4301 f67ba78b59563f86c21a5f51d61f5710 ""
+["pdflatex"] 1730054519.17139 "/Users/abin/CV/backupmain/AbinZorto-CoverLetter.tex" "AbinZorto-CoverLetter.pdf" "AbinZorto-CoverLetter" 1730054519.92255 0
+  "/Users/abin/CV/backupmain/AbinZorto-CoverLetter.tex" 1730039701.13968 4301 f67ba78b59563f86c21a5f51d61f5710 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc" 1463430686 2679 32dd8ae231bf4a0752b98f62dc097183 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc" 1202520719 2327 9d6df24f9c4f7368395224341a95523a ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc" 1254269338 3031 6c4d3515bf7115d8518af1c9ab97ca44 ""
@@ -155,9 +155,9 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1729951760.21182 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1729951663 8221433 eb2f670a4c371cd88d79d50b9f799473 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "AbinZorto-CoverLetter.aux" 1730027256.48065 240 4cef5c0330f8ef4b0c7a09ad6ed59530 "pdflatex"
-  "AbinZorto-CoverLetter.out" 1730027256.3013 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "AbinZorto-CoverLetter.tex" 1730027254.40479 4301 f67ba78b59563f86c21a5f51d61f5710 ""
+  "AbinZorto-CoverLetter.aux" 1730054519.84663 240 4cef5c0330f8ef4b0c7a09ad6ed59530 "pdflatex"
+  "AbinZorto-CoverLetter.out" 1730054519.68032 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "AbinZorto-CoverLetter.tex" 1730039701.13968 4301 f67ba78b59563f86c21a5f51d61f5710 ""
   (generated)
   "AbinZorto-CoverLetter.aux"
   "AbinZorto-CoverLetter.log"
