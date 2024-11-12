@@ -1,0 +1,230 @@
+ABIN ZORTO
+
+
+
+Experienced Computer Science Researcher/PhD candidate seeking to apply advanced skills in machine learning, big data analytics, and algorithm development, to drive innovation in software engineering and AI in the commercial sector. Aiming to contribute to cutting-edge projects that combine deep learning, natural language processing, and computer vision with research acumen, particularly in areas of predictive modelling, explainable AI, and complex data interpretation.
+
+
+
+PROFICIENCIES
+
+ARCHITECTURE TOOLS
+
+Terraform, AWS CLI, Azure CLI, Bicep, Git, Boto3, Azure Python SDK v2, Microsoft Visio, Milanote	PROGRAMMING LANGUAGES
+
+Python, JavaScript, C++, C#, R, MATLAB, SQL, NoSQL, Scala
+
+DEVELOPMENT TOOLS/METHODOLOGIES
+
+Github Actions, Jenkins, Gitlab, Ollama, Docker, Kubernetes
+
+
+
+IMPLEMENTED SERVICES
+
+AZURE SERVICES:
+
+Azure Machine Learning
+
+Azure Databricks
+
+Azure Functions
+
+Azure Kubernetes Service 
+
+Azure DevOps
+
+Azure Active Directory
+
+Azure DataLake
+
+Azure Data Factory
+
+Azure Synapse Analytics
+
+Azure SQL Database
+
+	AWS SERVICES:
+
+Amazon EC2
+
+Amazon S3
+
+AWS Lambda
+
+Amazon SageMaker
+
+AWS Glue
+
+Amazon Elastic Container Service (ECS)
+
+Amazon RDS for PostgreSQL
+
+Amazon CloudWatch
+
+AWS CloudFormation
+
+Amazon Cognito
+
+	PYTHON TOOLS:
+
+NumPy
+
+Pandas
+
+SciPy
+
+Matplotlib
+
+Seaborn
+
+Scikit-learn
+
+TensorFlow/Keras
+
+PyTorch
+
+Spark (PySpark)
+
+Django
+
+NLTK (Natural Language Toolkit)
+
+
+
+EXPERIENCE
+
+JOURNAL PUBLICATIONS https://scholar.google.com/citations?user=1yjR8x8AAAAJ&hl=en 
+
+•	An innovative approach based on machine learning to evaluate the risk factors importance in diagnosing keratoconus - Informatics in Medicine Unlocked https://doi.org/10.1016/j.imu.2023.101208 
+
+•	Conditional Tabular Generative Adversarial Net for Enhancing Ensemble Classifiers in Sepsis Diagnosis - Applied Computational Intelligence and Soft Computing https://doi.org/10.1155/2023/8819052 
+
+INDUSTRIAL EXPERIENCE
+
+University of East London: Senior Research Assistant	September 2023 – July 2024
+
+Awarded a grant of £50,000 for research aimed at tackling vector borne disease proliferation regarding ixodes ricinus ticks and Lyme borreliosis.
+
+•	Utilised NumPy, Pandas, and Scikit-learn to design and apply machine learning models for decision-making in vector-borne disease research.
+
+•	Employed Matplotlib and Seaborn to visualise complex data narratives, increasing stakeholder engagement by 25%.
+
+•	Implemented TensorFlow and PyTorch to develop robust predictive models, increasing reliability by 35% and reducing false positives by 20%.
+
+•	Applied NumPy and advanced Pandas techniques to mitigate 5 different potential biases in the available models, enhancing application accuracy by 15% and improving overall model trustworthiness scores by 28%.
+
+•	Managed a group of analysts and researchers, providing them direction and encouragement in the best ways of conducting data analysis and modeling.
+
+•	Implemented Azure Functions and AWS Lambda for serverless computing in research applications.
+
+•	Leveraged Azure Machine Learning/ Azure Devops and Amazon SageMaker for the creation of automated model development and deployment pipelines.
+
+University of East London: Supervisor/Lecturer	May 2023 – September 2023
+
+•	Assisted over 15 students, guiding them on research methods, data analysis, and academic writing.
+
+•	Conducted workshops on Python, R, and MATLAB for data analysis and machine learning, increasing student engagement by 40%.
+
+•	Facilitated the attendance of 100+ students at 15 workshops and seminars on specific issues, increasing student engagement in extracurricular learning by 40%.
+
+•	Collaborated with 8 colleagues to develop and enhance course materials, resulting in a 20% improvement in student satisfaction scores.
+
+•	Implemented Jupyter Notebooks to provide hands-on coding experiences.
+
+•	Provided constructive feedback to an average of 30 students per semester, leading to a 35% increase in paper quality and a 15% improvement in overall academic performance.
+
+•	Assisted 5 students in writing presentations and materials for publication, resulting in a 40% increase in student publications and conference participations.
+
+University of East London: Junior Research Assistant	September 2022 – May 2023
+
+•	Developed machine learning models using Scikit-learn, TensorFlow, and PyTorch for healthcare informatics projects that improved prediction accuracy by 30% in disease diagnosis models
+
+•	Published 2 research papers in Q2 academic peer-reviewed journals with an average impact factor of 5, demonstrating significant contributions to the field
+
+•	Presented research findings at 5 international conferences, expanding the project's reach and visibility by 50%
+
+•	Utilised PySpark on Azure Databricks for large-scale data processing and analysis.
+
+•	Leveraged Azure Synapse Analytics and Amazon Redshift for big data analysis in multidisciplinary research projects.
+
+Direct Line Group: Retention Specialist	January 2022 – March 2022
+
+•	Utilised CRM software to manage and analyse customer interactions, contributing to a holistic view of stakeholder needs.
+
+•	Employed active listening techniques and empathy to engage with diverse stakeholders, addressing concerns and gathering valuable feedback.
+
+•	Collaborated with cross-functional teams to share customer insights, aiding in the enhancement of product offerings and overall customer experience.
+
+•	Participated in training sessions on new products and services to effectively communicate benefits to customers, improving stakeholder understanding and satisfaction.
+
+•	Maintained detailed records of customer interactions, contributing to the company's data-driven approach to stakeholder management.
+
+
+
+RELEVANT PROJECTS (Available at https://github.com/AbinZorto)
+
+Deep Learning Projects	
+
+•	Implemented YOLOv4 object detector using TensorFlow and OpenCV for COVID-19 guideline enforcement.
+
+•	Utilized NVIDIA Omniverse and Isaac SDK for creating an automatic annotation platform for object tracking and training data.
+
+MLOPS Templates	
+
+•	Automated deployment workflows for Azure Machine Learning (AML) batch and online endpoints using GitHub Actions, YAML, and Python scripts.
+
+•	Managed infrastructure as code (IaC) with Terraform, provisioning compute clusters, data assets, and environments for scalable deployments.
+
+•	Developed CI/CD pipelines for continuous model updates, ensuring efficient dependency management, version control, and endpoint testing.
+
+•	Provisioned Azure resources with Azure CLI, Bicep, and YAML for consistent infrastructure across environments.
+
+•	Integrated CI/CD processes with GitHub Actions, streamlining model lifecycle management, testing, and validation.
+
+Document Analyzer	
+
+•	Developed a document analyzer using Python, LlamaIndex, and Ollama.
+
+•	Integrated Azure Cognitive Services for advanced text analytics and natural language processing.
+
+•	Utilized Azure Kubernetes Service (AKS) for scalable deployment of the analyzer.
+
+
+
+EDUCATION
+
+PhD in Computer Science
+
+University of East London	May 2023 – May 2026
+
+Dissertation: A Multimodal Computational Intelligence Approach to Neurophysiological Predictors of Transcranial Direct Current Stimulation for Depression Treatment
+
+MSc Computer Science (Hons)
+
+University of East London
+
+	Jan 2021 – Jan 2023
+
+Current Grade: Distinction
+
+MSc Advanced Robotics (Hons)
+
+Queen Mary University of London
+
+	Sep 2019 –Sep 2020
+
+Awarded Grade: Distinction
+
+BEng Mechanical Engineering (Hons)
+
+The University of Manchester	Sep 2016 – Jun 2019
+
+Awarded Grade: Second Class 
+
+
+
+
+
+
+

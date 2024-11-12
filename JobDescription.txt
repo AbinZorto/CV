@@ -1,0 +1,31 @@
+Who you are
+You are familiar with lifetime value (LTV) modelling and econometrics/marketing mix modelling
+You have experience with Bayesian approaches to machine learning, as well as with using neural networks, ideally PyTorch
+You have a good understanding of statistics, in particular Bayesian reasoning, and can estimate how accurate your results are, but also know when to stop analysing and deliver results
+You have a good understanding of causal inference concepts and have some experience with machine learning models for causal inference
+You are familiar with a range of model types, and know when and why to use gradient boosting, neural networks, good old linear regression, or a blend of these
+You have expert knowledge of Python, and are able to make and justify design decisions in your Python code; you can throw together a REST service or a UI if need be. You’ve used external data pulled via APIs before
+You understand fundamental technologies such as Kafka and Docker, and don’t think twice about bringing up a new engine in docker-compose to have a play
+You are able to take ownership of a project and see it through from end to end, with past experience in doing so
+You are data-driven with a structural and pedantic approach. You need to be able to prioritise the value you can add, and manage your time effectively
+You see a bigger picture of business processes and can cut through vagueness to define precisely where and how a model would fit into our stack and what value it would add
+You are comfortable with visualising and communicating data to various audiences, you easily articulate and present your ideas
+What the job involves
+We’re looking for a Data Scientist to join our growing Marketing Team in London
+This role is a unique opportunity to have an impact on Wise’s mission, grow as a Data Scientist and help save people money
+Wise has already pioneered new ways for people to transfer money across borders and currencies
+Our customers can also manage their hard-earned money with the world’s first platform to offer true multi-currency banking
+Your mission is to help make people aware of Wise as a solution for cross-border money needs
+You will help the Marketing tribe find the biggest opportunities for growth
+You will do this by developing predictive models to calculate Customer Lifetime Value (LTV), aiding in the prioritization of marketing efforts and resource allocation
+You will model customer behaviour data and product usage so we understand which audiences to target and how
+You will also use causal models to measure the incremental effect that CRM and Invite campaigns have on business metrics. You will use causal inference to decide which campaigns should be delivered to each user
+You will help us understand in what growth activity to invest (Marketing Mix Models)
+You will work closely with Data Analysts and you will help them understand and use models that you build (LTV or MMM models)
+Your average day will include building new models, maintaining models used by everyone in the marketing tribe, evaluating new ideas and communicating what models can tell us about how we do marketing
+Have a direct impact - You will closely partner with every marketing team within both Organic and Paid Acquisition and help millions of people and businesses to learn about how Wise can help them
+Work autonomously - we believe people are most empowered when they can act autonomously
+So rather than telling you what to do, you’ll work with your team to create a vision of your own
+Of course, you can always gather feedback from smart, curious people across Wise but you’ll have the freedom to make your own calls
+Be part of a diverse team - You will work in a team of Data scientists, Analysts and Marketeers
+Be part of our mission to make money without borders the new normal
